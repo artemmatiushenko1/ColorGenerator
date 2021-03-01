@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GET COLOR</title>
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="message-overlay hidden-modal">
+            <div class="container">
+                <h1 class="code"></h1>
+                <p class="success-msg">
+                    <span
+                        class="iconify"
+                        data-inline="false"
+                        data-icon="ant-design:check-circle-outlined"
+                        style="color: #ffffff; font-size: 24px"
+                    ></span
+                    >successfully copied to clipboard
+                </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="headings">
+                <h1>COLOR GENERATOR</h1>
+                <div class="line"></div>
+                <p>just press a button</p>
+            </div>
+
+            <div class="your-color">
+                <div class="circle"><h1>?</h1></div>
+                <div class="copy"></div>
+                <p>
+                    <span
+                        class="iconify"
+                        data-inline="false"
+                        data-icon="bi:arrow-up-short"
+                        style="color: #ffffff"
+                    ></span
+                    >click to copy
+                </p>
+            </div>
+
+            <div class="generate">
+                <button class="generate-btn">GET COLOR</button>
+            </div>
+        </div>
+    </body>
+</html>
